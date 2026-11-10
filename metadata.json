@@ -1,0 +1,6 @@
+{
+  "name": "Calhente Barbearia",
+  "description": "Barbearia premium em Arapongas PR. Cortes clássicos, barba tradicional na navalha e tratamentos exclusivos. Estilo e tradição com agendamento direto pelo WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold: #D4AF37;
+    --gold-light: #F6E6B4;
+    --gold-dark: #A68019;
+    --navy: #1A1A2E;
+    --navy-surface: #141424;
+    --navy-card: #161628;
+    --navy-deep: #0B0B14;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  body {
+    background-color: var(--navy-deep);
+    color: #E2E8F0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0B0B14;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #252538;
+    border-radius: 4px;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D4AF37;
+  }
+}
+
+/* Luxury gold text gradients */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFF7D6 0%, #D4AF37 50%, #A68019 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-subtle {
+  background: linear-gradient(180deg, #FFFFFF 0%, #E6CA65 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle hairline gold borders and luxury elevations */
+.border-gold-subtle {
+  border: 1px solid rgba(212, 175, 55, 0.18);
+}
+
+.border-gold-glow {
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  box-shadow: 0 8px 32px -4px rgba(212, 175, 55, 0.12);
+}
+
+.bg-luxury-navy {
+  background-color: #1A1A2E;
+}
+
+.bg-surface-elevated {
+  background-color: #141424;
+}
+
+.bg-gold-glass {
+  background: rgba(26, 26, 46, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
